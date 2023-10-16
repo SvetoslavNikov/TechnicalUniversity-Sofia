@@ -11,7 +11,8 @@ a = random.randint(-10, 10)
 b = random.randint(-10, 10)
 c = random.randint(-10, 10)
 
-print(f'{a}x**2+{b}x+{c}=0')  # f - formatirasht list imeenata na promenliwi w skobite shte se zamenqt ot stojnostite # im
+print(f'{a}x**2+{b}x+{c}=0')  # f - formatirasht list imeenata na promenliwi 
+#w skobite shte se zamenqt ot stojnostite # im
 print('{0}x**2+{1}x+{2}=0'.format(a, b, c))
 
 if a == 0:
@@ -47,11 +48,14 @@ print(s + '!!')
 print(s + '3.14')
 print(3 * s.split(" "))
 
-# a = """Lorem ertd"""#тройните кавички дават възможност за документиране на кода search more info
-print(cmath.sqrt.__doc__)  # име на модул име на функция . док и дава документацията на функцията
+# a = """Lorem ertd"""#тройните кавички дават възможност за документиране 
+# на кода search more info
+print(cmath.sqrt.__doc__)  # име на модул име на функция . док и дава
+#документацията на функцията
 
 # .length in java in python is len()
-print(s[len(s) - 1])  # we put - 1 because len count starting with 1, but the index start at 0
+print(s[len(s) - 1])  # we put - 1 because len count starting with 1,
+#but the index start at 0
 
 # s съдържа ли 'X'
 print('x' in s)
