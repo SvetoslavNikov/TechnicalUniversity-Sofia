@@ -1,0 +1,118 @@
+<!--drawing of circle , line and other things but i didnt catch everything-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAW</title>
+</head>
+
+<body>
+    <h1>TUS!<br>
+    TUS!</h1>
+    <form name = "vhod">
+        Data 1
+        <input name="vh1" type="text">
+        <br>
+        Data 2 
+        <input name="vh2" type="text">
+        <br>
+        result
+        <input name="res" type="text">
+        <br>
+
+  
+
+
+    </form>
+    <button onClick="pl()";>
+        [+]
+    </button>
+    <button onClick="min()";>
+        [-]
+    </button>
+    <button onClick="mu()";>
+        [*]
+    </button>
+    <button onClick="divide()";>
+        [/]
+    </button>
+
+    <button onClick="dr();"> [DRAW]
+    </button><br>
+    <canvas id="draw_field" width = "400" height = "250" style = "border"></canvas>
+    var x = 0;
+    var y = 0;
+    var r = 0;
+    var c = document.getElementById("")
+    var ctx = c
+
+    function dr(){
+        x = document.vhod.vh1.value*1;
+        y = document.vhod.vh1.value*1;
+        r = document.vhod.vh1.value;
+
+        ctx.moveTo(0, 0);
+        ctx.moveTo(0, 0);
+        ctx.moveTo(0, 0);
+
+    }
+
+
+    function pl()
+    {
+        d1 = document.vhod.vh1.value*1;
+        d2 = document.vhod.vh2.value*1;
+        <!-- *1 parse the string to integer type -->
+        r=document.vhod.res.value;
+        <!--calculator-->
+        r = d1+d2;
+        <!--Show result-->
+        document.vhod.res.value=r
+    }
+
+    function mu()
+    {
+        alert("ok")
+        <!--Read data-->
+        d1 = document.vhod.vh1.value*1;
+        d2 = document.vhod.vh2.value*1;<!-- *1 parse the string to integer type-->
+        r=document.vhod.res.value;
+        <!--calculator-->
+        r = d1*d2;
+        <!--Show result-->
+        document.vhod.res.value=r
+    }
+
+    function min()
+    {
+        alert("ok")
+        <!--Read data-->
+        d1 = document.vhod.vh1.value*1;
+        d2 = document.vhod.vh2.value*1;<!-- *1 parse the string to integer type-->
+        r=document.vhod.res.value;
+        <!--calculator-->
+        r = d1-d2;
+        <!--Show result-->
+        document.vhod.res.value=r
+    }
+
+    function divede()
+    {
+        alert("ok")
+        <!--Read data-->
+        d1 = document.vhod.vh1.value*1;
+        d2 = document.vhod.vh2.value*1;<!-- *1 parse the string to integer type-->
+        r=document.vhod.res.value;
+        <!--calculator-->
+        r = d1/d2;
+        <!--Show result-->
+        document.vhod.res.value=r
+    }
+
+<script></script>   <!--in this we write javaScript/ or seperate file-->
+</body>
+</html>
